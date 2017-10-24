@@ -1,6 +1,25 @@
 # average-layout
 为了满足UI线性布局，均匀留空的特点
 
+如何使用
+
+在项目级别的 build.gradle :
+```java
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+} 
+```
+
+在app级别的 build.gradle:
+```java
+dependencies {
+    compile 'com.github.zyl0501:average-layout:1.0.0'
+}  
+```
+
 继承自LinearLayout
 
 Attribute | Type | Summary
