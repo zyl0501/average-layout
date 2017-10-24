@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AverageLayout">
+        <attr name="holdEdgeSpace" format="boolean"/>
+        <attr name="sizeAccordingId" format="reference"/>
+        <attr name="itemWidth" format="dimension"/>
+        <attr name="itemHeight" format="dimension"/>
+    </declare-styleable>
+
+</resources>
